@@ -1,0 +1,23 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+  overflow-x: auto;
+}

@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Azure Computer Vision - Image Recognition</h1>
+
+  <input
+    type="text"
+    [(ngModel)]="imageUrl"
+    placeholder="Enter Image URL"
+  />
+
+  <button (click)="analyzeImage()">
+    Analyze Image
+  </button>
+
+  <div *ngIf="loading">
+    Processing image...
+  </div>
+
+  <pre *ngIf="result">
+{{ result | json }}
+  </pre>
